@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment & IDE
+.venv
+.env
+.vscode/
+.idea/
+.git/
+
+# Tests
+test/
+tests/
+
+# Docker artifacts
+Dockerfile
+docker-compose.yml 
+
+# Scripts
+*.sh

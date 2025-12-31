@@ -1,0 +1,14 @@
+services:
+  riichi-seer:
+    build: .
+    container_name: riichi-seer
+    environment:
+      - TZ=Asia/Shanghai
+    restart: always
+    volumes:
+      - .:/app
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10mb"
+        max-file: "3"
